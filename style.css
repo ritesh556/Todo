@@ -34,6 +34,7 @@ background: linear-gradient(90deg, rgba(0,36,34,0.8071603641456583) 0%, rgba(99,
     width: 50vw; 
     height: 6vw;
     resize: none;
+    color : white;
   }
   button {
     background-color: blue;
