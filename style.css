@@ -79,8 +79,8 @@ background: linear-gradient(90deg, rgba(0,36,34,0.8071603641456583) 0%, rgba(99,
   textarea {
     width: 100%;
     font-size: 1em;
-    padding: 10px;
-    margin-bottom: 20px;
+    
+    margin-bottom: -40px;
     background-color: rgb(19, 19, 19);
     border-radius: 40px;
     border-color: burlywood;
@@ -89,17 +89,23 @@ background: linear-gradient(90deg, rgba(0,36,34,0.8071603641456583) 0%, rgba(99,
     resize: none;
     color : white;
     word-wrap: break-word;
+   
   }
   button {
     background-color: blue;
+    
     color: white;
     padding: 10px 20px;
    border-style:none ;
     border-radius: 30px;
     
     cursor: pointer;
-    margin-top: 0px;
     
+    
+  }
+  #ok{
+    margin-bottom: 40px;
+
   }
   #ok:hover {
     background-color: darkblue;
@@ -113,7 +119,7 @@ background: linear-gradient(90deg, rgba(0,36,34,0.8071603641456583) 0%, rgba(99,
   border-radius: 30px;
   color: darkgray;
   text-align: left;
-	  word-wrap: break-word;
+  word-wrap: break-word;
   }
   .delete{
     background-color: rgb(94, 8, 15);
