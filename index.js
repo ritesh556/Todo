@@ -56,6 +56,7 @@ document.getElementById("ok").addEventListener("click", function (event) {
       textvalue.classList.remove("jumping");
       textvalue.removeAttribute("data-animation-played");
     }, 1000);
+    renderList();
   } else {
     a.push(text);
     localStorage.setItem("a", JSON.stringify(a));
