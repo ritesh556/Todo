@@ -36,15 +36,18 @@ document.getElementById("ok").addEventListener("click", function(event) {
     event.preventDefault();
     text = document.getElementById("text").value;
     if (text.length === 0 || text.length >= 100) {
-        var check = document.getElementById("check");
-        if (check.innerHTML !== "enter what to do") {
-            check.innerHTML += "enter what to do";
-        }
+       textvalue = document.getElementById("text")
+        textvalue.style.background="darkred"
+        textvalue.classList.add("jumping")
+        
+       
+       
     } else {
         a.push(text);
         localStorage.setItem("a", JSON.stringify(a));
-        document.getElementById("text").value = "";
-        document.getElementById("check").innerHTML = "";
+        document.getElementById("text").value=""
+        textvalue.style.background="rgb(19, 19, 19)"
+       
         renderList();
     }
 });
