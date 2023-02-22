@@ -147,15 +147,7 @@ background: linear-gradient(90deg, rgba(0,36,34,0.8071603641456583) 0%, rgba(99,
     color: red;
     font-size: 15px;
   }
-  h3{
-   
-  color: rgb(230, 107, 248);
-  font-size: 30px;
-  text-shadow: -2px -2px 0px rgb(132, 6, 1);
-  margin-top: -15px;
-  margin-left: 6vw;
  
-  }
   .edit{
     background-color: rgb(18, 189, 103);
     justify-content: flex-end;
