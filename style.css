@@ -74,7 +74,7 @@ background: linear-gradient(90deg, rgba(0,36,34,0.8071603641456583) 0%, rgba(99,
     font-size: 1.2em;
     margin-bottom: 10px;
     
-    color: blue;
+    color: rgb(135, 16, 175);
   }
   textarea {
     width: 100%;
@@ -133,10 +133,12 @@ background: linear-gradient(90deg, rgba(0,36,34,0.8071603641456583) 0%, rgba(99,
   }
   h3{
    
-  color: #8D0AFF;
+  color: rgb(230, 107, 248);
   font-size: 30px;
-  text-shadow: -2px -2px 0px #800000;
+  text-shadow: -2px -2px 0px rgb(132, 6, 1);
   margin-top: -15px;
+  margin-left: 10vw;
+ 
   }
   .edit{
     background-color: rgb(18, 189, 103);
