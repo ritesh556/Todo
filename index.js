@@ -49,6 +49,7 @@ document.getElementById("ok").addEventListener("click", function (event) {
     textvalue = document.getElementById("text");
     textvalue.style.background = "darkred";
     textvalue.classList.add("jumping")
+
   
   }
  
@@ -56,11 +57,14 @@ document.getElementById("ok").addEventListener("click", function (event) {
   
   else {
     a.push(text);
+    renderList();
     localStorage.setItem("a", JSON.stringify(a));
     document.getElementById("text").value = "";
     textvalue.style.background = "rgb(19, 19, 19)";
     textvalue.classList.remove("jumping")
-    renderList();
+   
+   
+    
    
   }
 });
