@@ -88,6 +88,7 @@ background: linear-gradient(90deg, rgba(0,36,34,0.8071603641456583) 0%, rgba(99,
     height: 10vw;
     resize: none;
     color : white;
+    word-wrap: break-word;
   }
   button {
     background-color: blue;
@@ -112,6 +113,7 @@ background: linear-gradient(90deg, rgba(0,36,34,0.8071603641456583) 0%, rgba(99,
   border-radius: 30px;
   color: darkgray;
   text-align: left;
+	  word-wrap: break-word;
   }
   .delete{
     background-color: rgb(94, 8, 15);
