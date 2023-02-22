@@ -20,10 +20,11 @@ background: linear-gradient(90deg, rgba(0,36,34,0.8071603641456583) 0%, rgba(99,
   100% {
     transform: translateY(0);
   }
+ 
 }
 
 .jumping {
-  animation: jump 0.5s ease-out;
+  animation: jump 0.5s ease-out 2;
 }
 
 @keyframes myAnim {
