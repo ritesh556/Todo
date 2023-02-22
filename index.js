@@ -48,22 +48,20 @@ document.getElementById("ok").addEventListener("click", function (event) {
   if (text.length === 0 || text.length >= 100) {
     textvalue = document.getElementById("text");
     textvalue.style.background = "darkred";
-    if (!textvalue.hasAttribute("data-animation-played")) {
-      textvalue.classList.add("jumping");
-      textvalue.setAttribute("data-animation-played", "true");
-    }
-    setTimeout(() => {
-      textvalue.classList.remove("jumping");
-      textvalue.removeAttribute("data-animation-played");
-    }, 1000);
-    renderList();
-  } else {
+    textvalue.classList.add("jumping")
+  
+  }
+ 
+ 
+  
+  else {
     a.push(text);
     localStorage.setItem("a", JSON.stringify(a));
     document.getElementById("text").value = "";
     textvalue.style.background = "rgb(19, 19, 19)";
-
+    textvalue.classList.remove("jumping")
     renderList();
+   
   }
 });
 
